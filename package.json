@@ -7,5 +7,12 @@
     "backend": "cd backend && node server.js",
     "frontend": "cd frontend && npx serve -l 5000"
   },
-  "dependencies": {}
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "nodemailer": "^9.0.1",
+    "uuid": "^14.0.1"
+  }
 }
